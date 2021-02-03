@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/robo-react-app/static/css/main.38f2f041.chunk.css",
-    "main.js": "/robo-react-app/static/js/main.e8b6159c.chunk.js",
-    "main.js.map": "/robo-react-app/static/js/main.e8b6159c.chunk.js.map",
+    "main.js": "/robo-react-app/static/js/main.8e795a58.chunk.js",
+    "main.js.map": "/robo-react-app/static/js/main.8e795a58.chunk.js.map",
     "runtime-main.js": "/robo-react-app/static/js/runtime-main.54122c13.js",
     "runtime-main.js.map": "/robo-react-app/static/js/runtime-main.54122c13.js.map",
     "static/css/2.31461e4f.chunk.css": "/robo-react-app/static/css/2.31461e4f.chunk.css",
-    "static/js/2.a6c4d654.chunk.js": "/robo-react-app/static/js/2.a6c4d654.chunk.js",
-    "static/js/2.a6c4d654.chunk.js.map": "/robo-react-app/static/js/2.a6c4d654.chunk.js.map",
+    "static/js/2.522db888.chunk.js": "/robo-react-app/static/js/2.522db888.chunk.js",
+    "static/js/2.522db888.chunk.js.map": "/robo-react-app/static/js/2.522db888.chunk.js.map",
     "index.html": "/robo-react-app/index.html",
     "static/css/2.31461e4f.chunk.css.map": "/robo-react-app/static/css/2.31461e4f.chunk.css.map",
     "static/css/main.38f2f041.chunk.css.map": "/robo-react-app/static/css/main.38f2f041.chunk.css.map",
-    "static/js/2.a6c4d654.chunk.js.LICENSE.txt": "/robo-react-app/static/js/2.a6c4d654.chunk.js.LICENSE.txt",
+    "static/js/2.522db888.chunk.js.LICENSE.txt": "/robo-react-app/static/js/2.522db888.chunk.js.LICENSE.txt",
     "static/media/App.css": "/robo-react-app/static/media/SEGA.47b4bfa9.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.54122c13.js",
     "static/css/2.31461e4f.chunk.css",
-    "static/js/2.a6c4d654.chunk.js",
+    "static/js/2.522db888.chunk.js",
     "static/css/main.38f2f041.chunk.css",
-    "static/js/main.e8b6159c.chunk.js"
+    "static/js/main.8e795a58.chunk.js"
   ]
 }
