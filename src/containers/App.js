@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import { connect } from 'react-redux';
 import CardList from '../components/CardList.js';
 import SearchBox from '../components/searchBox.js';
+import Header from '../components/Header.js'
 import Scroll from '../components/Scroll';
 import  './App.css';
 import ErrorBoundry from '../components/ErrorBoundry';
@@ -31,8 +32,8 @@ function App(props){
         fetch('https://jsonplaceholder.typicode.com/users')
         .then(response => 
             response.json())
-        .then(users => {
-            onRequestRobots(users)});
+        .then(users => 
+            onRequestRobots(users));
     }, [])
 
     // const onSearchChange = (event) => {
@@ -41,12 +42,14 @@ function App(props){
 
     const filterRobots = props.robots.filter(robot => {
         return robot.name.toLowerCase().includes(props.searchField.toLowerCase())})
-        
+    
+    
+
     return !props.robots ?
         <h1>Loading...</h1> :
         (
             <div className='tc'>
-                <h1 className='f2' >RoboFriends </h1>
+                <Header/>
                 <SearchBox searchChange={props.onSearchChange}/>
                 <Scroll>
                     <ErrorBoundry>
